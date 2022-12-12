@@ -9,10 +9,7 @@ javaVersion(8)
 wheel {
 	minecraft = "1.15.2"
 	yarn = "+"
-}
-
-repositories {
-	maven("maven.auoeke.net")
+	spam = true
 }
 
 dependencies {
