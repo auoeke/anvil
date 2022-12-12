@@ -1,0 +1,20 @@
+plugins {
+	id("net.auoeke.wheel").version("latest.release")
+}
+
+group("user11681")
+version("0.6.1")
+javaVersion(8)
+
+wheel {
+	minecraft = "1.15.2"
+	yarn = "+"
+}
+
+repositories {
+	maven("maven.auoeke.net")
+}
+
+dependencies {
+	mod("net.fabricmc.fabric-api:fabric-api:0.28.5+1.15")
+}
