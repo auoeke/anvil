@@ -1,0 +1,29 @@
+{
+    "schemaVersion": 1,
+    "id": "anvil",
+    "version": "0.6.1",
+    "name": "anvil",
+    "description": "a Fabric event API that provides simple and efficient ways of making and using events",
+    "authors": [
+        "user11681"
+    ],
+    "contact": {
+        "sources": "https://github.com/user11681/anvil"
+    },
+    "icon": "assets/anvil/icon.png",
+    "environment": "*",
+    "entrypoints": {
+        "preLaunch": [
+            "user11681.anvil.Anvil"
+        ]
+    },
+    "mixins": [
+        "anvil.mixins.json"
+    ],
+    "depends": {
+        "fabric": "*"
+    },
+    "custom": {
+        "modmenu:api": true
+    }
+}
